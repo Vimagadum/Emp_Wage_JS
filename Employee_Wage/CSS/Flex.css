@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 2px;
+  font-family: "Poppins", sans-serif;  
+  background-color: grey;
+}
+.MainContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+}
+.mainContentItem{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  row-gap: 5px;
+  margin: 0px 5px;
+}
+article{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightpink;
+    text-align: center;
+}
+.SideBarLeft,
+.SideBarRight{
+  background-color: palevioletred;
+  text-align: center;
+  flex-grow: 3;
+}
+.HeaderContainer,
+.footerContainer{
+    background-color: bisque;
+    height: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
